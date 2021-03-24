@@ -28,7 +28,7 @@ class Game:
         print("Switching players")
         return 2 if name == 1 else 1
     def currentplayer(self,player):
-        #.name is accessed from the Player class that is initialized in line 33.
+        #.name is accessed from the Player class.
         print("It is currently %s turn" % (player.name))
     def CurrentScore(self, player):
         print("%s, your current score is %s." % \
